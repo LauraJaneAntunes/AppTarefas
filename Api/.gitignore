@@ -1,0 +1,16 @@
+# Desconsiderar arquivos gerados pelo sistema operacional
+/node_modules/
+/.vscode/
+/.idea/
+.DS_Store
+
+# Desconsiderar arquivos gerados pelo build
+/build/
+/dist/
+
+# Desconsiderar arquivos de cache
+/tmp/
+*.log
+
+# Desconsiderar arquivos de configuração local
+.env
